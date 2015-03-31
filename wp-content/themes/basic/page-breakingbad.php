@@ -20,9 +20,9 @@ Template Name: breakingbad Page
 			<div class="active">
 				<ul class="nav nav-pills">
 					
-					<li><a href="<?php bloginfo('url'); ?>/About">About</a></li>
+					<!-- <li><a href="<?php bloginfo('url'); ?>/About">About</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/Career">Career</a></li>
-					<li><a href="<?php bloginfo('url'); ?>/Contact">Contact</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/Contact">Contact</a></li> -->
 				</ul>
 			</div>
 		</div>
