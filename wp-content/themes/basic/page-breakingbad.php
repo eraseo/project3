@@ -3,14 +3,15 @@
 Template Name: breakingbad Page
 */
 ?>
-
+	
+	
 	<div class="minilogo">
 		<a href="<?php bloginfo('url'); ?>" class="icecream3d">
 			<img src="<?php bloginfo('template_directory'); ?>/_img/logo3d8.png" />
 		</a>
-		<a href="<?php bloginfo('url'); ?>"><h1 class="minicompanyname">WHY SO SERIOUS</h1></a>
+		<!-- <a href="<?php bloginfo('url'); ?>"><h1 class="minicompanyname">WHY SO SERIOUS</h1></a> -->
 	</div>
-	
+	<div class="uglybanner"></div>
 
 <div class="container">
 	

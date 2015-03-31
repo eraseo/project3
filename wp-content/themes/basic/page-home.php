@@ -22,7 +22,6 @@ Template Name: Home Page
 <div class="container">
 	
 
-  	
 	<a href="<?php bloginfo('url'); ?>" class="icecream"></a>
   	<a href="<?php bloginfo('url'); ?>"><h1 class="companyname">WHY SO SERIOUS</h1></a>
 	<h1 class="companyline">Network for your badass TV shows</h1>
