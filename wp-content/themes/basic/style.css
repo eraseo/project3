@@ -191,16 +191,25 @@ body {
 }
 
 .bbnav {
-  position: absolute; left:105px;top:300px; 
+  position: absolute; left:71px;top:320px; 
   font-size: 43px;
   padding: 5px;
   font-family: 'Bangers', cursive;
   line-height: 1em;
+  letter-spacing: 2px;
+}
+
+.bbnav a {
+  color: #000000;
+}
+
+.bbnav a:active {
+  color: #5FD4E4;
 }
 
 .bbnav .nav-stacked li a:hover{
     background-color: transparent;
-    color: #101C25;
+    color: #4A81AB;
 }
 
 .postpost h1 {
@@ -208,6 +217,7 @@ body {
   font-family: 'Bangers', cursive;
   font-size: 60px;
   color: #060500;
+  letter-spacing: 2px;
 }
 
 .postpost h6 {
@@ -227,6 +237,7 @@ body {
   font-family: 'Bangers', cursive;
   font-size: 60px;
   color: #060500;
+  letter-spacing: 2px;
 }
 
 .awardspostpost h6 {
@@ -246,6 +257,7 @@ body {
   font-family: 'Bangers', cursive;
   font-size: 60px;
   color: #060500;
+  letter-spacing: 2px;
 }
 
 .clipspostpost h6 {
@@ -262,6 +274,7 @@ body {
   font-family: 'Bangers', cursive;
   font-size: 60px;
   color: #060500;
+  letter-spacing: 2px;
 }
 
 .parodypostpost h6 {

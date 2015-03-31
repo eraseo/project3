@@ -31,7 +31,7 @@ Template Name: breakingbadclips Page
 				<ul class="nav nav-stacked">
 					<li class="bbabout"><a href="<?php bloginfo('url'); ?>/breaking-bad">About</a></li>
 					<li class="bbawards"><a href="<?php bloginfo('url'); ?>/breaking-bad-awards">Awards</a></li>
-					<li class="bbclips"><a href="<?php bloginfo('url'); ?>/breaking-bad-clips">Clips</a></li>
+					<li class="bbclips"><a href="<?php bloginfo('url'); ?>/breaking-bad-clips">Trailer</a></li>
 					<li class="bbparody"><a href="<?php bloginfo('url'); ?>/breaking-bad-parody">Parody</a></li>
 				</ul>
 			</div>
@@ -49,7 +49,7 @@ Template Name: breakingbadclips Page
 
 			
 		  <!-- <h1><?php the_title(); ?></h1>  -->
-		  	<h1>CLIPS</h1>
+		  	<h1>TRAILER</h1>
 			<h6 class="clipspostpostbox"><?php the_content(); ?><h6>
 
 
