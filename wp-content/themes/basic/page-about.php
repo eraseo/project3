@@ -37,7 +37,7 @@ Template Name: About Page
 				<div class="aboutwhysoserious">		
 			
 
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<h1><?php the_title(); ?></h1>
 			 	<?php the_content(); ?>
@@ -47,7 +47,8 @@ Template Name: About Page
 			    <p>Sorry, no pages matched your criteria.</p>
 			<?php endif; ?>
 
-	</div>
+
+				</div>
 
 
 <?php get_footer(); ?>
