@@ -191,7 +191,7 @@ body {
 }
 
 .bbnav {
-  position: absolute; left:64px;top:320px; 
+  position: absolute; left:104px;top:320px; 
   font-size: 47px;
   padding: 5px;
   font-family: 'Bangers', cursive;
@@ -261,7 +261,7 @@ body {
 }
 
 .clipspostpost h6 {
-  position:absolute; left:1000px; top:210px;
+  position:absolute; left:1015px; top:210px;
   width: 235px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
@@ -283,7 +283,7 @@ code, kbd, pre, samp {
 }
 
 .parodypostpost h6 {
-  position:absolute; left:920px; top:210px;
+  position:absolute; left:930px; top:210px;
   width: 390px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
