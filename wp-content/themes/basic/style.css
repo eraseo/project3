@@ -1,0 +1,259 @@
+/**
+  Theme Name: Why So Serious Theme
+  Version: 1
+  Author: Phillip & Era
+*/
+
+body {
+	background-color: black;
+  background-image: url('_img/header1.png');
+
+}
+
+.homeheader {
+  height:450px ;
+}
+
+.header {
+	height:650px ;
+}
+
+
+/*header logo + name + lines*/
+.container {
+	position: relative;
+}
+
+.companyname {
+	position:absolute; left:270px; top:290px;
+	font-size: 130px;
+	color: white;
+	font-family: 'Teko', sans-serif;
+  text-shadow: 4px 3px 0px #A92F53, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.companyline {
+	position:absolute; left:385px; top:410px;
+	font-size: 20px;
+	font-family: 'Audiowide', cursive;
+	color: #C2BFC8;
+}
+
+.icecream {
+    background: url( "_img/logo3d8.png" );
+    height: 100%;
+    width: 100%;
+    position:absolute; left:450px; top:120px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/***********HOMEPAGE NAV***************
+***************************************/
+.homenav a {
+	color:white;
+	font-size: 15px;
+	position: absolute; left:450px;top:600px; 
+  font-family: 'quantico', sans-serif;
+}
+
+.homenav .nav-pills li a:hover{
+    background-color: transparent;
+    color: #E24864;
+  
+}
+
+.homenav .nav-pills li a {
+  border-radius: 0px;
+  color:white;
+}
+
+.pointdown img{
+  position:absolute; left:551px; top:550px;
+  height: 55px;
+}
+
+/*Testing Shownav NOT USING IT DO NOT ERASE YET*/
+/*.shownav a {
+	position: absolute; left:320px; top:580px;
+
+}*/
+
+
+
+/***********ABOUT whysoserious*************
+*****************************************/
+.aboutwhysoserious{
+  width: 1300px;
+  height: 900px;
+  background-color: #FC5754;
+  position:absolute; left:0px; top:900px;
+}
+
+
+
+
+
+
+/**************************************
+*******BOOTSTRAP NAVBAR FOOTER********/
+
+.navbar {
+    background-color: #F4EAE3;
+    border: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar .navbar-brand {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.navbar-header{
+    position:absolute;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottomnav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/***********************************
+************Breaking Bad************/
+.icecream3d img{
+    height: 80px;
+    position:absolute; left:20px; top:40px;
+    background-repeat: no-repeat;
+}
+
+.minilogo h1{
+  position:absolute; left:20px; top:2px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  text-shadow: 4px 3px 0px #A92F53, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.bb {
+    background-image: url('_img/breakingbadbg.png');
+    background-size: cover;
+    height:675px ;
+    width: 100%;
+}
+
+.bbnav {
+  position: absolute; left:55px;top:340px; 
+  font-size: 33px;
+  padding: 5px;
+  font-family: 'Bangers', cursive;
+  line-height: 1em;
+}
+
+.bbnav .nav-stacked li a:hover{
+    background-color: transparent;
+    color: #101C25;
+}
+
+.postpost h1 {
+  position:absolute; left:830px; top:185px;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #060500;
+}
+
+.postpost h6 {
+  position:absolute; left:740px; top:280px;
+  width: 340px;
+  line-height: 2em;
+  font-family: 'quantico', cursive;
+}
+
+.awardspostpostbox {
+    width: 450px;
+    height: 300px;
+    overflow: auto;
+}
+.awardspostpost h1 {
+  position:absolute; left:825px; top:185px;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #060500;
+}
+
+.awardspostpost h6 {
+  position:absolute; left:700px; top:280px;
+  width: 410px;
+  line-height: 2em;
+  font-family: 'quantico', cursive;
+}
+
+.clipspostpostbox {
+    width: 450px;
+    height: 300px;
+    overflow: auto;
+}
+.clipspostpost h1 {
+  position:absolute; left:840px; top:185px;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #060500;
+}
+
+.clipspostpost h6 {
+  position:absolute; left:710px; top:280px;
+  width: 410px;
+  line-height: 2em;
+  font-family: 'quantico', cursive;
+}
+.clipspostpost iframe {
+  width: 390px;
+}
+.parodypostpost h1 {
+  position:absolute; left:820px; top:185px;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #060500;
+}
+
+.parodypostpost h6 {
+  position:absolute; left:710px; top:280px;
+  width: 410px;
+  line-height: 2em;
+  font-family: 'quantico', cursive;
+}
+.parodypostpost iframe {
+  width: 390px;
+}
+
+/*#titlerectangle{
+    width:340px;
+    height:70px;
+    background:#000000;
+    position:absolute; left:740px; top:180px;
+}*/
+/*#bodyrectangle{
+    width:340px;
+    height:570px;
+    background:#000000;
+    position:absolute; left:740px; top:110px;
+}*/
+
+
+/*phillip*/
+
+
