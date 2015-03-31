@@ -249,11 +249,11 @@ body {
 
 .clipspostpostbox {
     width: 450px;
-    height: 300px;
+    height: 390px;
     overflow: auto;
 }
 .clipspostpost h1 {
-  position:absolute; left:840px; top:185px;
+  position:absolute; left:1040px; top:105px;
   font-family: 'Bangers', cursive;
   font-size: 60px;
   color: #060500;
@@ -261,14 +261,19 @@ body {
 }
 
 .clipspostpost h6 {
-  position:absolute; left:710px; top:280px;
-  width: 410px;
-  line-height: 2em;
+  position:absolute; left:1000px; top:210px;
+  width: 235px;
+  line-height: 2.5em;
   font-family: 'quantico', cursive;
 }
 .clipspostpost iframe {
   width: 390px;
 }
+
+code, kbd, pre, samp {
+  font-family: 'quantico', sans-serif;
+}
+
 .parodypostpost h1 {
   position:absolute; left:1040px; top:105px;
   font-family: 'Bangers', cursive;
