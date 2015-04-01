@@ -1,6 +1,6 @@
 <?php get_header();
 /*
-Template Name: hellskitchen Page
+Template Name: hellskitchenclips Page
 */
 ?>
 

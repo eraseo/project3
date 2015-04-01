@@ -241,8 +241,8 @@ body {
 }
 
 .awardspostpost h6 {
-  position:absolute; left:920px; top:210px;
-  width: 390px;
+  position:absolute; left:895px; top:210px;
+  width: 450px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
 }
@@ -288,9 +288,10 @@ code, kbd, pre, samp {
   line-height: 2.5em;
   font-family: 'quantico', cursive;
 }
-.parodypostpost iframe {
+/*.parodypostpost iframe {
   width: 390px;
-}
+}*/
+
 
 /*#titlerectangle{
     width:340px;
@@ -305,6 +306,90 @@ code, kbd, pre, samp {
     position:absolute; left:740px; top:110px;
 }*/
 
+/************hells kitchen***************
+**************************************/
+.hk {
+    background-image: url('_img/hellskitchenlayout1.png');
+    background-size: cover;
+    height:675px ;
+    width: 100%;
+}
+.hknav {
+  position: absolute; left:754px;top:320px; 
+  font-size: 25px;
+  padding: 5px;
+font-family: 'Voltaire', sans-serif;
+  line-height: 1em;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+.hknav a {
+  color: #DAD3D5;
+}
+
+.hknav a:active {
+  color: #5FD4E4;
+}
+
+.hknav .nav-stacked li a:hover{
+    background-color: transparent;
+    color: #FFDD59;
+}
+
+.hkpostpost h1 {
+  position:absolute; left:970px; top:85px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 60px;
+  color: #EEEBCA;
+  letter-spacing: 2px;
+  text-shadow: 4px 3px 0px #C91A03, 9px 8px 0px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.hkpostpost h6 {
+  position:absolute; left:960px; top:210px;
+  width: 400px;
+  line-height: 2.5em;
+  font-family: 'quantico', cursive;
+  color: #F0F0F5;
+  z-index: 10;
+}
+/*#hktitlerectangle{
+    width:640px;
+    height:70px;
+    background:#000000;
+    position:absolute; left:740px; top:140px;
+}*/
+#hkbodyrectangle{
+    width:640px;
+    height:570px;
+    background:#6A1B19;
+    position:absolute; left:740px; top:70px;
+    opacity:0.6;
+    border-radius: 30px;
+    z-index: 9;
+}
+
+/*update to server*/
+.winpostpost h1 {
+  position:absolute; left:970px; top:85px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 60px;
+  color: #EEEBCA;
+  letter-spacing: 2px;
+  text-shadow: 4px 3px 0px #C91A03, 9px 8px 0px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.winpostpost h6 {
+  position:absolute; left:960px; top:210px;
+  width: 400px;
+  line-height: 2.5em;
+  font-family: 'quantico', cursive;
+  color: #F0F0F5;
+  z-index: 10;
+}
 
 /*phillip*/
 
