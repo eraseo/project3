@@ -315,7 +315,7 @@ code, kbd, pre, samp {
     width: 100%;
 }
 .hknav {
-  position: absolute; left:754px;top:320px; 
+  position: absolute; left:704px;top:320px; 
   font-size: 25px;
   padding: 5px;
 font-family: 'Voltaire', sans-serif;
@@ -338,7 +338,7 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .hkpostpost h1 {
-  position:absolute; left:970px; top:85px;
+  position:absolute; left:1010px; top:85px;
   font-family: 'Voltaire', sans-serif;
   font-size: 60px;
   color: #EEEBCA;
@@ -348,7 +348,7 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .hkpostpost h6 {
-  position:absolute; left:960px; top:210px;
+  position:absolute; left:910px; top:210px;
   width: 400px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
@@ -365,7 +365,7 @@ font-family: 'Voltaire', sans-serif;
     width:640px;
     height:570px;
     background:#6A1B19;
-    position:absolute; left:740px; top:70px;
+    position:absolute; left:700px; top:70px;
     opacity:0.6;
     border-radius: 30px;
     z-index: 9;
@@ -383,13 +383,72 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .winpostpost h6 {
-  position:absolute; left:960px; top:210px;
+  position:absolute; left:980px; top:210px;
   width: 400px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
   color: #F0F0F5;
   z-index: 10;
 }
+
+.winpostpostbox {
+    width: 500px;
+    height: 350px;
+    overflow: auto;
+}
+
+.hkclippostpost h1 {
+  position:absolute; left:960px; top:85px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 60px;
+  color: #EEEBCA;
+  letter-spacing: 2px;
+  text-shadow: 4px 3px 0px #C91A03, 9px 8px 0px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.hkclippostpost h6 {
+  position:absolute; left:980px; top:210px;
+  width: 400px;
+  line-height: 2.5em;
+  font-family: 'quantico', cursive;
+  color: #F0F0F5;
+  z-index: 10;
+}
+
+.hkclippostpostbox {
+    width: 500px;
+    height: 350px;
+    overflow: auto;
+}
+
+.etcpostpostbox {
+    width: 450px;
+    height: 390px;
+    overflow: auto;
+}
+.etcpostpost h1 {
+  position:absolute; left:940px; top:85px;
+  font-family: 'Voltaire', sans-serif;
+  font-size: 60px;
+  color: #EEEBCA;
+  letter-spacing: 2px;
+  text-shadow: 4px 3px 0px #C91A03, 9px 8px 0px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.etcpostpost h6 {
+  position:absolute; left:980px; top:210px;
+  width: 400px;
+  line-height: 2.5em;
+  font-family: 'quantico', cursive;
+  color: #F0F0F5;
+  z-index: 10;
+}
+.etcpostpost iframe {
+  width: 390px;
+}
+
 
 /*phillip*/
 

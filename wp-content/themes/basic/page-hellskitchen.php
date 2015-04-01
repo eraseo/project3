@@ -32,8 +32,8 @@ Template Name: hellskitchen Page
 				<ul class="nav nav-stacked">
 					<li class="hkabout"><a href="<?php bloginfo('url'); ?>/hells-kitchen">About</a></li>
 					<li class="hkwin"><a href="<?php bloginfo('url'); ?>/hells-kitchen-winners">Winners</a></li>
-					<li class="hkclips"><a href="<?php bloginfo('url'); ?>/hells-kitchen-clips">Clips</a></li>
-					<li class="hketc"><a href="<?php bloginfo('url'); ?>/hells-kitchen-etc">Other</a></li>
+					<li class="hkclips"><a href="<?php bloginfo('url'); ?>/hells-kitchen-clips">Highlights</a></li>
+					<li class="hketc"><a href="<?php bloginfo('url'); ?>/hells-kitchen-etc">Sound Clips</a></li>
 				</ul>
 			</div>
 		</div>
@@ -58,7 +58,7 @@ Template Name: hellskitchen Page
 		  <!-- <h1><?php the_title(); ?></h1>  -->
 		  	<h1>ABOUT</h1>
 			<h6><?php the_content(); ?><h6>
-
+			</div>
 
 		  <?php endwhile; else: ?>
 		    <p>Sorry, no pages matched your criteria.</p>
