@@ -283,7 +283,7 @@ code, kbd, pre, samp {
 }
 
 .parodypostpost h6 {
-  position:absolute; left:930px; top:210px;
+  position:absolute; left:1020px; top:210px;
   width: 390px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
@@ -423,7 +423,7 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .etcpostpostbox {
-    width: 450px;
+    width: 500px;
     height: 390px;
     overflow: auto;
 }
@@ -438,16 +438,17 @@ font-family: 'Voltaire', sans-serif;
 }
 
 .etcpostpost h6 {
-  position:absolute; left:980px; top:210px;
+  position:absolute; left:895px; top:210px;
   width: 400px;
   line-height: 2.5em;
   font-family: 'quantico', cursive;
   color: #F0F0F5;
   z-index: 10;
 }
-.etcpostpost iframe {
-  width: 390px;
-}
+
+
+
+
 
 
 /*phillip*/
